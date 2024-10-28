@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'BebasNeue'; 
+    src: url('bebas.ttf'); 
+}
+:root {
+    --font-family: "OpenSans", sans-serif;
+    --second-family: "BebasNeue", sans-serif;
+}
+header {
+    height: 1000px;
+    background: url("header_bg 1.svg");
+    background-size: cover;
+    margin: auto;
+    padding: 30px;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    max-height:4000px;
+    background:brown;
+}
+/* тут должно быть осоновная часть но я лох */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+.footer{
+    padding-top: 50px;
+    background: brown;
+}
+
+.footer-company{
+    max-width: 250px;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.846px;
+}
+
+.footer-text{
+    font-family: "Open Sans", sans-serif;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+
+.footer-contact-link{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: block;
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
